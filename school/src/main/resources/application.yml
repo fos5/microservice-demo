@@ -1,0 +1,27 @@
+eurerka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  application:
+    name: schools
+  config:
+    import: optional:configserver:http://localhost:8888
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=schools;encrypt=true;trustServerCertificate=true;
+    username: sa
+    password: '@adewunmI1738'
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.SQLServerDialect
+          format_sql: true
+          show-sql: true
+server:
+  port: 8070
