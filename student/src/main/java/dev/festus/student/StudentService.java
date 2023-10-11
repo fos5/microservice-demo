@@ -22,4 +22,7 @@ public class StudentService {
     public Student saveStudent(Student student){
         return repository.save(student);
     }
+    public List<Student> findStudentsBySchool(int schoolId) {
+        return repository.findBySchoolId(schoolId);
+    }
 }

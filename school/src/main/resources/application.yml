@@ -9,6 +9,8 @@ spring:
   application:
     name: schools
   config:
+    students:
+      url: http://localhost:8090/api/v1/students
     import: optional:configserver:http://localhost:8888
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=schools;encrypt=true;trustServerCertificate=true;

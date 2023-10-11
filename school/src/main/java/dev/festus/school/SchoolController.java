@@ -18,11 +18,16 @@ public class SchoolController {
         return ResponseEntity.ok(schoolService.getAllSchools());
     }
 
-    @GetMapping
-    @ResponseStatus(HttpStatus.OK)
-    public School getSchoolById(@PathVariable int id){
-        return schoolService.getSchoolById(id);
+    @GetMapping("/with-students/{school-id}")
+    public ResponseEntity<FullSchoolResponse> getAllSchools(@PathVariable("school-id") int schoolId){
+        return ResponseEntity.ok(schoolService.getAllSchoolsWithStudents(schoolId));
     }
+//
+//    @GetMapping
+//    @ResponseStatus(HttpStatus.OK)
+//    public School getSchoolById(@PathVariable int id){
+//        return schoolService.getSchoolById(id);
+//    }
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)

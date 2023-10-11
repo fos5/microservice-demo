@@ -24,4 +24,9 @@ public class StudentController {
         return studentService.saveStudent(student);
     }
 
+    @GetMapping("/school/{school-id}")
+    public List<Student> findAllStudentBySchool(@PathVariable("school-id") int schoolId){
+        return studentService.findStudentsBySchool(schoolId);
+    }
+
 }

@@ -4,70 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ae452f-0830-45af-b300-8ccc5073944c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/dev/festus/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/dev/festus/configserver/ConfigServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/dev/festus/discovery/DiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/test/java/dev/festus/discovery/DiscoveryApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/dev/festus/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/dev/festus/gateway/GatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/test/java/dev/festus/school/SchoolApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student/src/test/java/dev/festus/student/StudentApplicationTests.java" afterDir="false" />
+    <list default="true" id="29ae452f-0830-45af-b300-8ccc5073944c" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/FullSchoolResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/client/StudentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +67,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dev.festus.school" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/school/src/main/java/dev/festus/school" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dev.festus.school" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +129,7 @@
       <module name="school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.festus.school.*" />
+          <option name="PATTERN" value="dev.festus.school.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SchoolApplication" />
         <item itemvalue="Application.StudentApplication" />
         <item itemvalue="Application.DiscoveryApplication" />
-        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.SchoolApplication" />
+        <item itemvalue="Application.GatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -214,10 +169,20 @@
       <option name="presentableId" value="Default" />
       <updated>1691506356588</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1692634009125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692634009125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
