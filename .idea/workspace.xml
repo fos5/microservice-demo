@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29ae452f-0830-45af-b300-8ccc5073944c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/FullSchoolResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/client/StudentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/dev/festus/school/SchoolService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/dev/festus/student/StudentService.java" afterDir="false" />
-    </list>
+    <list default="true" id="29ae452f-0830-45af-b300-8ccc5073944c" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/mac/Documents/projects/micro-services/school/src/main/java/dev/festus/school",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Documents/projects/micro-services/school/src/main/java/dev/festus/school&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dev.festus.school" />
@@ -176,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692634009125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1697052668582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697052668582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
